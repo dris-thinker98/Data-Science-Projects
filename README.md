@@ -143,11 +143,7 @@ This repo is meant to grow into a knowledge base. Feel free to contribute via pu
 4. Push to the branch (`git push origin feature/topic-name`)
 5. Open a pull request
 
----
 
-## 🧾 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
