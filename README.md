@@ -149,4 +149,4 @@ This repo is meant to grow into a knowledge base. Feel free to contribute via pu
 
 ## 🌐 Stay Connected
 
-Follow for more updates and insights into the evolving world of Data Science. Happy
+Follow for more updates and insights into the evolving world of Data Science. Happy Learning!
