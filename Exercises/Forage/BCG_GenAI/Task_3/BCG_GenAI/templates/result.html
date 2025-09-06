@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinChat Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+			background-image: url('https://smartasset.com/wp-content/uploads/sites/2/2021/07/financial-and-technical-data-analysis-graph-picture-id1145882183.jpg');
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+		div {
+				margin: 25px
+		}		
+        .result-container {
+			background: #fff;
+			padding: 20px 30px;
+			border-radius: 10px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+			text-align: center;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }	
+        a:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Financial Data Result</h1>
+		<h4>Made by: Drishti De</h4>
+    </header>
+
+    <div class="result-container">
+        <p>The {{ metric.lower() }} for {{ company }} in {{ year }} is: <strong>{{ result }}</strong></p>
+        <a href="/">Ask Another Query</a>
+    </div>
+
+    <footer>
+        <p>Powered by Vision Tech Inc. (BCG) | &copy; 2024</p>
+    </footer>
+</body>
+</html>
