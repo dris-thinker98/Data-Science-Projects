@@ -97,7 +97,3 @@ The models can be broadly categorized into three groups:
 Always start with **simple baseline models** (Naive, ETS, ARIMA), evaluate performance, and only then move to **advanced ML/DL models** if justified by complexity or accuracy requirements.
 
 ---
-
-**Author:** _Time-Series Analysis Knowledgebase_  
-**License:** MIT  
-**Last Updated:** 2025
